@@ -1,0 +1,22 @@
+<header class="container py-5 text-center">
+  <h1 class="display-5 fw-bold">Desarrollo de Sitios Web</h1>
+  <p class="lead">Esta es mi primera aplicación de una sola página o single page aplication construida con Angular 20 
+    y Bootstrap 5. Este proyecto es mi introducción guiada al desarrollo frontend,creando desde 0 todo el proyecto usando las 
+    convenciencio modernas y usando componentes, enrutamiento y control de flujo para crear interfaces eficientes.</p>
+</header>
+
+<section class="container pb-5">
+  <div class="row g-4">
+    @for (tec of tecnologias; track tec.nombre) {
+      <div class="col-12 col-md-4">
+        <div class="card h-100 text-center shadow-sm">
+          <div class="card-body">
+            <i class="bi {{ tec.icono }} fs-1"></i>
+            <h2 class="h5 mt-3">{{ tec.nombre }}</h2>
+            <p class="mb-0">{{ tec.descripcion }}</p>
+          </div>
+        </div>
+      </div>
+    }
+  </div>
+</section>
