@@ -9,9 +9,9 @@ import { Component } from '@angular/core';
 export class DocumentacionScreen {
   urlDocumentacion = 'https://angular.dev';
   diapositivas = [
-    {titulo: 'Node.js', imagen: 'assets/images/nodeimg.png'},
-    {titulo: 'TypeScript', imagen: 'assets/images/typescriptimg.png'},
-    {titulo: 'Angular', imagen: 'assets/images/angularimg.png'},
-    {titulo: 'NPM', imagen: 'assets/images/npmimg.png'}
+    {titulo: 'Node.js', imagen: 'assets/img/nodeimg.png'},
+    {titulo: 'TypeScript', imagen: 'assets/img/typescriptimg.png'},
+    {titulo: 'Angular', imagen: 'assets/img/angularimg.png'},
+    {titulo: 'NPM', imagen: 'assets/img/npmimg.png'}
   ];
 }
